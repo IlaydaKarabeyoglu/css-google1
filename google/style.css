@@ -1,0 +1,78 @@
+header {
+    width: 500;
+    height: 1000; 
+    background-color: rgb(219, 205, 227);
+  }   
+  
+  .google ul li {
+    
+    display: inline; 
+    letter-spacing:10px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    
+  }
+
+  ul {list-style: none;
+   font-size: 100px;
+   
+   
+  }
+  
+  ul li:nth-child(1){
+    color: crimson;
+  }
+  ul li:nth-child(2){
+    color: darkblue;
+  }
+  ul li:nth-child(3){
+    color: yellow;
+  }
+  ul li:nth-child(4){
+    color: green;
+  }
+  ul li:nth-child(5){
+    color: indigo;
+  }
+  ul li:nth-child(6){
+    color: red;
+  }
+   input[type=text]  {
+       margin-left: auto;
+       margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing:border-box;
+    padding: 2px;
+  }   
+  .box{
+    height: 400;
+    width: 300; 
+    background-color:#eadce4 ;
+  }
+  .box-b {
+    background-color: #70CCC2;
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    height: 80px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 13px
+}
+
+.box-c {
+    background-color: #62B3AA;
+    width: 45%;
+    float:left;
+    text-align: center;
+    margin-left: 2px;
+    height: 80px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 13px
+}
+.copyright{
+    margin-left: 20px;
+}
